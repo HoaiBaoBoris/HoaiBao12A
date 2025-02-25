@@ -6,15 +6,23 @@
     <h1> Đóng góp ý kiến cho thư viện của nhà trường </h1>
     <form>
       <ol>
-        <li> <b> 1.Thông tin về người góp ý </b></li>
+        <li> <b> 1.Thông tin về người góp ý </b>
         <label>Họ và tên: </label> 
       <input type="text" id="hovaten" name="hovaten"> 
       <label> Địa chỉ email: </label>
       <input type="text" id="email" name="email">
       <button type="submit" onlick=login()> Họ và tên </button>
-        <li> <b> 2.Đóng góp ý kiến </b></li>
+        </li>
+         <li> <b> 2.Đóng góp ý kiến </b>
          <label> Ý kiến đóng góp </label> <br>
          <textarea id="yk" name="yk" rows="5" cols="15"></textarea>
+         <p>Thể loại cần bổ sung thêm sách</p>
+            <input type= "checkbox" name="chkTruyenNgan"> Truyện ngắn<br>
+            <input type= "checkbox" name="chkKiNang"> Kỹ năng sống<br>
+            <input type= "checkbox" name="chkCNTT">Công nghệ thông tin<br>
+            <input type= "checkbox" name="chkTruyenTranh">Truyện tranh<br>
+            <input type= "checkbox" name="chkLichSu">Lịch sử<br>
+         </li>
       </ol>
     </form>
   </body>
